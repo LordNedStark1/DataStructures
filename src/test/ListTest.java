@@ -5,6 +5,8 @@ import arrayList.MyList;
 import org.junit.jupiter.api.BeforeEach;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 
@@ -28,11 +30,21 @@ public class ListTest {
 
     }
     @Test
-    public void testCapacityOverFlow(){
+    public void testAddToCapacity(){
         setup();
-        for (int i = 0; i < 17; i++){
+        for (int i = 0; i < 10; i++){
             list.add("name"+ i);
         }
+        assertEquals(list.size(), 10);
+        assertEquals(list.getCapacity(),10);
+    }
+    @Test
+    public void testCapacityOverFlow(){
+        setup();
+        for (int i = 1; i < 17; i++){
+            list.add("name"+ i);
+        }
+
         assertEquals(list.size(), 16);
         assertEquals(list.getCapacity(),20);
     }

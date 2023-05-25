@@ -12,6 +12,7 @@ public class MyArrayList <T> implements MyList{
     private int index;
     public MyArrayList() {
         elements = new String [listCapacity];
+
     }
     //    public MyArrayList(int capacity, T type) {
 //        this.type = type;
@@ -26,20 +27,25 @@ public class MyArrayList <T> implements MyList{
     }
     @Override
     public void add(String value) {
+
         if (elements[elements.length - 1] != null){
+
             increaseCapacity(elements.length);
+
         }
         elements[index] = value;
         index++;
+
 
     }
 
     private void increaseCapacity(int length) {
         String [] newArray = new String[length * 2 ];
-        for (int index = 0; index < newArray.length; index++) {
+        for (int index = 0; index < elements.length; index++) {
             newArray[index] = elements[index];
         }
-        elements = newArray;
+        this.elements = newArray;
+
         listCapacity = elements.length;
     }
 
@@ -70,8 +76,11 @@ public class MyArrayList <T> implements MyList{
             }
         }
         elements = arr;
-        System.out.println(Arrays.toString(elements));
+
         index--;
+    }
+    public String toString() {
+        return Arrays.toString(elements);
     }
 
 }

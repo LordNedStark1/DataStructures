@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algrithm/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algrithm/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +56,13 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ListTest.testCapacityOverFlow">
-    <configuration name="another" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayList.another" />
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mecellanouse" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MultiplicationTest">
+    <configuration name="MultiplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -82,10 +71,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="test.MultiplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationTest.testMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MultiplicationTest" />
+      <option name="METHOD_NAME" value="testMultiply" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationTest.testMultiplytwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MultiplicationTest" />
+      <option name="METHOD_NAME" value="testMultiplytwo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,10 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ListTest.testCapacityOverFlow" />
+        <item itemvalue="JUnit.MultiplicationTest" />
+        <item itemvalue="JUnit.MultiplicationTest.testMultiplytwo" />
+        <item itemvalue="JUnit.MultiplicationTest.testMultiply" />
         <item itemvalue="TestNG.ListTest.testRemoveMethod" />
-        <item itemvalue="TestNG.ListTest" />
-        <item itemvalue="Application.another" />
+        <item itemvalue="TestNG.ListTest.testCapacityOverFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +166,7 @@
       <workItem from="1682679991519" duration="2320000" />
       <workItem from="1684254380395" duration="2913000" />
       <workItem from="1684304223481" duration="708000" />
-      <workItem from="1685038446423" duration="5695000" />
+      <workItem from="1685038446423" duration="13257000" />
     </task>
     <servers />
   </component>
