@@ -1,0 +1,62 @@
+package test;
+
+import arrayList.MyArrayList;
+import arrayList.MyList;
+import org.junit.jupiter.api.BeforeEach;
+import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
+
+public class ListTest {
+    MyList list;
+    @BeforeEach
+    public void setup(){
+         list = new MyArrayList();
+    }
+    @Test
+    public void testListCapacity(){
+        MyList list = new MyArrayList();
+        assertEquals(10, list.getCapacity());
+    }
+    @Test
+    public void testAddMethod(){
+        setup();
+        list.add("my name");
+        list.add("behaviour");
+        assertEquals(2, list.size());
+
+    }
+    @Test
+    public void testCapacityOverFlow(){
+        setup();
+        for (int i = 0; i < 17; i++){
+            list.add("name"+ i);
+        }
+        assertEquals(list.size(), 16);
+        assertEquals(list.getCapacity(),20);
+    }
+    @Test
+    public void testRemoveMethod(){
+        setup();
+        list.add("my name");
+        list.add("index");
+        list.add("other");
+        list.add("behaviour");
+
+        assertEquals("index", list.get(1));
+
+        list.remove(1);
+        assertEquals(list.size(), 3);
+
+        assertEquals( list.get(2), "behavior");
+
+        boolean isPresent = false;
+        for (int index = 0; index < list.size(); index++) {
+            if (list.get(index) == "index") {
+                isPresent = true;
+            }
+        }
+        assertFalse(isPresent);
+    }
+}
