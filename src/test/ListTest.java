@@ -11,16 +11,17 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 
 public class ListTest {
-    MyList list;
+    MyList<String> list;
     @BeforeEach
     public void setup(){
-         list = new MyArrayList();
+         list = new MyArrayList<>();
     }
     @Test
     public void testListCapacity(){
-        MyList list = new MyArrayList();
+        MyList <String>list = new MyArrayList<>();
         assertEquals(10, list.getCapacity());
     }
+    @org.junit.Test
     @Test
     public void testAddMethod(){
         setup();
@@ -61,7 +62,7 @@ public class ListTest {
         list.remove(1);
         assertEquals(list.size(), 3);
 
-        assertEquals( list.get(2), "behavior");
+        assertEquals( list.get(2), "behaviour");
 
         boolean isPresent = false;
         for (int index = 0; index < list.size(); index++) {
@@ -70,5 +71,25 @@ public class ListTest {
             }
         }
         assertFalse(isPresent);
+    }
+
+    @Test
+    public void testInsertMethod(){
+        setup();
+        list.add("my name");
+        list.add("index");
+        list.add("other");
+        list.add("behaviour");
+
+        assertEquals("index", list.get(1));
+        assertEquals(list.size(), 4);
+
+        list.insert(1, "ned");
+
+        assertEquals(list.get(1), "ned");
+        assertEquals(list.get(2), "index");
+        assertEquals(list.size(), 5);
+
+
     }
 }

@@ -1,24 +1,20 @@
 package arrayList;
 
-import javax.swing.plaf.PanelUI;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Spliterator;
+import java.util.function.Consumer;
 
 public class MyArrayList <T> implements MyList{
 
     private int listCapacity = 10;
     private T type ;
-    private String [] elements ;
-    private int index;
+    private Object [] elements ;
+    private int sizeOrLastIndex;
     public MyArrayList() {
-        elements = new String [listCapacity];
-
+        elements = new Object [listCapacity];
     }
-    //    public MyArrayList(int capacity, T type) {
-//        this.type = type;
-//       elements =  new String [listCapacity];
-//    }
-
     @Override public int getCapacity() {
         return listCapacity;
     }
@@ -26,21 +22,21 @@ public class MyArrayList <T> implements MyList{
 
     }
     @Override
-    public void add(String value) {
+    public void add(Object value) {
 
         if (elements[elements.length - 1] != null){
 
             increaseCapacity(elements.length);
 
         }
-        elements[index] = value;
-        index++;
+        elements[sizeOrLastIndex] = value;
+        sizeOrLastIndex++;
 
 
     }
 
     private void increaseCapacity(int length) {
-        String [] newArray = new String[length * 2 ];
+        Object [] newArray = new Object[length * 2 ];
         for (int index = 0; index < elements.length; index++) {
             newArray[index] = elements[index];
         }
@@ -51,36 +47,82 @@ public class MyArrayList <T> implements MyList{
 
     @Override
     public long size() {
-        return index;
+        return sizeOrLastIndex;
     }
 
     @Override
-    public String get(int i) {
-        return elements[i];
+    public T get(int i) {
+
+        return (T) elements[i];
     }
 
     @Override
     public void remove(int i) {
-        String [] arr = new String[listCapacity];
-        for(int index = 0; index < elements.length; index++) {
+        elements[i] = null;
+        for (int index = 0; index < elements.length; index++) {
 
-            if (index == i) {
-                int newIndex = index;
-                newIndex++;
-                arr[index] = elements[newIndex];
-                index += 1;
-
-            }else {
-
-                arr[index] = elements[index];
+            if (index+ 1 < elements.length) {
+                if (elements[index] == null && elements[index + 1] != null) {
+                    elements[index] = elements[index + 1];
+                    elements[index + 1] = null;
+                }
             }
         }
-        elements = arr;
-
-        index--;
+        sizeOrLastIndex--;
     }
+
+    @Override
+    public void insert(int indexToChange, Object newValue) {
+        Object valueFromPreviousIndex = elements[indexToChange];
+        elements[indexToChange] = newValue;
+
+        if (indexToChange + 1 < elements.length) {
+
+            Object valueFromNextIndex = elements[indexToChange + 1];
+            elements[sizeOrLastIndex] = valueFromPreviousIndex;
+
+            insert(indexToChange + 1, valueFromNextIndex);
+        }
+
+        sizeOrLastIndex ++;
+
+    }
+
+//    public String toString() {
+//        return Arrays.toString(elements);
+//    }
+
     public String toString() {
-        return Arrays.toString(elements);
+        StringBuilder result = new StringBuilder();
+        result.append("[");
+
+        for (int i = 0; i < elements.length; i++) {
+            if (i == elements.length - 1 && elements[i] != null) {
+                result.append(elements[i]);
+                break;
+            }
+            if (elements[i] != null ) {
+                if (elements[i+1] != null) result.append( elements[i]+ ", ");
+                else if (elements[i+1] == null) {
+                    result.append( elements[i]);
+                }
+            }
+        }
+        return result.append("]").toString();
     }
 
+//    @Override
+//    public Iterator iterator() {
+//        return ;
+//    }
+//
+//    @Override
+//    public void forEach(Consumer action) {
+//        MyList.super.forEach(action);
+//    }
+//
+//    @Override
+//    public Spliterator spliterator() {
+//        return MyList.super.spliterator();
+//    }
 }

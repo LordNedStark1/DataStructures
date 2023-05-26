@@ -1,13 +1,15 @@
 package arrayList;
 
-public interface MyList <T>{
+public interface MyList <T>  {
     int getCapacity();
 
-    void add(String my_name);
+    void add(T my_name);
 
     long size();
 
-    String get(int i);
+    T get(int i);
 
     void remove(int i);
+
+    void insert(int i, T ned);
 }
