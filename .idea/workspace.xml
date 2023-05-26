@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/customExceptions/MyStackOverFlowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customExceptions/MyStackUnderFlowError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customExceptions/MyStackUnderFlowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/MySet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MySetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStackTest.java" afterDir="false" />
     </list>
@@ -60,12 +64,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="set" />
+      <recent name="map" />
       <recent name="customExceptions" />
+      <recent name="set" />
       <recent name="mecellanouse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyStackTest">
+  <component name="RunManager" selected="JUnit.MySetTest">
     <configuration name="MySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -145,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MySetTest" />
         <item itemvalue="JUnit.MyStackTest" />
         <item itemvalue="JUnit.MySetTest.testIsPresent" />
-        <item itemvalue="JUnit.MySetTest" />
         <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.QueueTest.testAddRemoveAndAddingToQueue" />
       </list>
@@ -165,7 +170,7 @@
       <workItem from="1684254380395" duration="2913000" />
       <workItem from="1684304223481" duration="708000" />
       <workItem from="1685038446423" duration="24982000" />
-      <workItem from="1685085051357" duration="1460000" />
+      <workItem from="1685085051357" duration="9550000" />
     </task>
     <servers />
   </component>

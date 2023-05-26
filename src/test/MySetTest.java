@@ -1,15 +1,23 @@
 package test;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import set.MySet;
+
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MySetTest {
+    MySet <Integer> set;
+    @BeforeEach
+    public void setUp(){
+        set = new MySet<>();
+    }
     @Test
     public void testSetAddMethod(){
-        MySet <Integer> set = new MySet<>();
+
         set.add(4);
         set.add(5);
         set.add(6);
@@ -19,7 +27,7 @@ public class MySetTest {
     }
     @Test
     public void testForDuplication(){
-        MySet <Integer> set = new MySet<>();
+
         set.add(4);
         set.add(9);
         set.add(6);
@@ -34,11 +42,19 @@ public class MySetTest {
     }
     @Test
     public void testIsPresent(){
-        MySet <Integer> set = new MySet<>();
+        Set
         set.add(4);
         set.add(9);
         set.add(6);
         set.add(7);
         assertTrue(set.isPresent(4));
+    }
+    @Test
+    public void testFindIndex(){
+        set.add(4);
+        set.add(9);
+        set.add(6);
+
+        assertEquals(1, set.getIndex());
     }
 }

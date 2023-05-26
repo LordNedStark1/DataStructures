@@ -1,10 +1,4 @@
-package arrayList;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
+package list;
 
 public class MyArrayList <T> implements MyList{
 

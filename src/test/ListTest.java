@@ -1,11 +1,9 @@
 package test;
 
-import arrayList.MyArrayList;
-import arrayList.MyList;
+import list.MyArrayList;
+import list.MyList;
 import org.junit.jupiter.api.BeforeEach;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;

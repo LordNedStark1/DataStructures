@@ -1,7 +1,7 @@
 package set;
 
-import arrayList.MyArrayList;
-import arrayList.MyList;
+import list.MyArrayList;
+import list.MyList;
 
 public class MySet<S> {
     MyList<S> elements = new MyArrayList<>();

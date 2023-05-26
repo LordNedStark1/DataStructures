@@ -1,25 +1,30 @@
 package stack;
 
-import arrayList.MyArrayList;
-import arrayList.MyList;
-import customExceptions.MyStackUnderFlowError;
+import customExceptions.MyStackOverFlowException;
+import customExceptions.MyStackUnderFlowException;
 
 public class MyStack<S> {
     private int  size;
-    Object [] myStack = new Object[70];
+    private final int stackMaximumCapacity = 100;
+    Object [] myStack = new Object[stackMaximumCapacity];
     public void push(S value) {
+        if (size + 1 > stackMaximumCapacity) {
+            throw new MyStackOverFlowException("Stack OverFlow Exception");
+        }
         myStack[size] = value;
+        size++;
     }
     public S pop() {
-        if (myStack[0] == null) {
-            throw new MyStackUnderFlowError("Stack UnderFlow Error");
+        if (size - 1 < 0) {
+            throw new MyStackUnderFlowException("Stack UnderFlow Exception");
         }
-        S value = (S) myStack[myStack.length - 1];
-        myStack.remove(myStack.size() - 1);
+        size--;
+        S value = (S) myStack[size];
+        myStack[myStack.length - 1] = null;
         return value;
     }
 
     public S peek() {
-        return myStack.get(myStack.size() - 1);
+        return (S) myStack[size - 1];
     }
 }

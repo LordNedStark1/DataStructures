@@ -1,4 +1,4 @@
-package arrayList;
+package list;
 
 public interface MyList <T>  {
     int getCapacity();

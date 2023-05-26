@@ -1,6 +1,7 @@
 package test;
 
-import customExceptions.MyStackUnderFlowError;
+import customExceptions.MyStackOverFlowException;
+import customExceptions.MyStackUnderFlowException;
 import org.junit.jupiter.api.Test;
 import stack.MyStack;
 
@@ -37,8 +38,18 @@ public class MyStackTest {
         stack.push("yes");
 
         assertEquals("yes", stack.pop());
-        assertEquals("week", stack.pop());
-        assertThrows(new MyStackUnderFlowError("Stack UnderFlow Error"), stack.pop());
+        assertEquals("Week", stack.pop());
+        assertThrows(MyStackUnderFlowException.class, stack::pop);
+
+    }
+    @Test
+    public void testStackOverFlow() {
+        MyStack<String> stack = new MyStack<>();
+        for (int count = 0; count < 100; count++) {
+        stack.push("Week");
+        }
+
+        assertThrows(MyStackOverFlowException.class, () -> stack.push("anything"));
 
     }
 }
