@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import set.MySet;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -42,7 +43,7 @@ public class MySetTest {
     }
     @Test
     public void testIsPresent(){
-        Set
+
         set.add(4);
         set.add(9);
         set.add(6);
@@ -55,6 +56,6 @@ public class MySetTest {
         set.add(9);
         set.add(6);
 
-        assertEquals(1, set.getIndex());
+        assertEquals(1, set.getIndex(9));
     }
 }

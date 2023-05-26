@@ -17,8 +17,17 @@ public class MySet<S> {
         return checkedPresence;
     }
 
-    public long size() {
+    public int size() {
         return elements.size();
+    }
+    public int getIndex(S value) {
+        int index = -1;
+        for (int indexInArray = 0; indexInArray < elements.size(); indexInArray++) {
+            if (elements.get(indexInArray) == value) {
+                index = indexInArray;
+            }
+        }
+        return index;
     }
     public String toString() {
         String stringValue = elements.toString();
@@ -31,5 +40,6 @@ public class MySet<S> {
 
 
     }
+
 }
 

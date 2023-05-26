@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/customExceptions/MyStackOverFlowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customExceptions/MyStackUnderFlowError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customExceptions/MyStackUnderFlowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MyMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/set/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/MySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MySetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,22 @@
       <recent name="mecellanouse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MySetTest">
+  <component name="RunManager" selected="JUnit.MyMapTest">
+    <configuration name="MyMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MyMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -82,6 +93,22 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySetTest.testFindIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
+      <option name="METHOD_NAME" value="testFindIndex" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,44 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testAddRemoveAndAddingToQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.QueueTest" />
-      <option name="METHOD_NAME" value="testAddRemoveAndAddingToQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyMapTest" />
         <item itemvalue="JUnit.MySetTest" />
+        <item itemvalue="JUnit.MySetTest.testFindIndex" />
         <item itemvalue="JUnit.MyStackTest" />
         <item itemvalue="JUnit.MySetTest.testIsPresent" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.testAddRemoveAndAddingToQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +166,7 @@
       <workItem from="1684254380395" duration="2913000" />
       <workItem from="1684304223481" duration="708000" />
       <workItem from="1685038446423" duration="24982000" />
-      <workItem from="1685085051357" duration="9550000" />
+      <workItem from="1685085051357" duration="14646000" />
     </task>
     <servers />
   </component>
