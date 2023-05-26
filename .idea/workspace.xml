@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/customExceptions/QueueFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/QueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MySetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/programs/dataStructures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/programs/dataStructures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="set" />
@@ -66,7 +65,7 @@
       <recent name="mecellanouse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MySetTest">
+  <component name="RunManager" selected="JUnit.MyStackTest">
     <configuration name="MySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -77,6 +76,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySetTest.testIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
+      <option name="METHOD_NAME" value="testIsPresent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MyStackTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,49 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.testInsertMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
-      <option name="METHOD_NAME" value="testInsertMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.testRemoveMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
-      <option name="METHOD_NAME" value="testRemoveMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyStackTest" />
+        <item itemvalue="JUnit.MySetTest.testIsPresent" />
         <item itemvalue="JUnit.MySetTest" />
         <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.QueueTest.testAddRemoveAndAddingToQueue" />
-        <item itemvalue="TestNG.ListTest.testInsertMethod" />
-        <item itemvalue="TestNG.ListTest.testRemoveMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +164,8 @@
       <workItem from="1682679991519" duration="2320000" />
       <workItem from="1684254380395" duration="2913000" />
       <workItem from="1684304223481" duration="708000" />
-      <workItem from="1685038446423" duration="24122000" />
+      <workItem from="1685038446423" duration="24982000" />
+      <workItem from="1685085051357" duration="1460000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,7 @@ public interface MyList <T>  {
 
     void add(T my_name);
 
-    long size();
+    int size();
 
     T get(int i);
 

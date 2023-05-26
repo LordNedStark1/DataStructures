@@ -46,7 +46,7 @@ public class MyArrayList <T> implements MyList{
     }
 
     @Override
-    public long size() {
+    public int size() {
         return sizeOrLastIndex;
     }
 
@@ -88,9 +88,6 @@ public class MyArrayList <T> implements MyList{
 
     }
 
-//    public String toString() {
-//        return Arrays.toString(elements);
-//    }
 
     public String toString() {
         StringBuilder result = new StringBuilder();

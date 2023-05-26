@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import set.MySet;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MySetTest {
     @Test
@@ -30,5 +31,14 @@ public class MySetTest {
         System.out.println(set);
         String expected = "{ 4, 9, 6, 7, 2 }";
         assertEquals(5, set.size());
+    }
+    @Test
+    public void testIsPresent(){
+        MySet <Integer> set = new MySet<>();
+        set.add(4);
+        set.add(9);
+        set.add(6);
+        set.add(7);
+        assertTrue(set.isPresent(4));
     }
 }
