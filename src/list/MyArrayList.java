@@ -1,9 +1,15 @@
 package list;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
 public class MyArrayList <T> implements MyList{
 
     private int listCapacity = 10;
     private T type ;
+
     private Object [] elements ;
     private int sizeOrLastIndex;
     public MyArrayList() {

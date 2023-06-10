@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/MySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MySetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-19/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,7 +49,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/programs/dataStructures&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/programs/Maven/ChatApp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,13 +59,29 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="diary" />
       <recent name="map" />
       <recent name="customExceptions" />
       <recent name="set" />
       <recent name="mecellanouse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyMapTest">
+  <component name="RunManager" selected="JUnit.DiariesTest">
+    <configuration name="DiariesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.diariesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.diariesTest" />
+      <option name="MAIN_CLASS_NAME" value="test.diariesTest.DiariesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -113,22 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySetTest.testIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
-      <option name="METHOD_NAME" value="testIsPresent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiariesTest" />
         <item itemvalue="JUnit.MyMapTest" />
         <item itemvalue="JUnit.MySetTest" />
         <item itemvalue="JUnit.MySetTest.testFindIndex" />
         <item itemvalue="JUnit.MyStackTest" />
-        <item itemvalue="JUnit.MySetTest.testIsPresent" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,15 @@
       <workItem from="1684254380395" duration="2913000" />
       <workItem from="1684304223481" duration="708000" />
       <workItem from="1685038446423" duration="24982000" />
-      <workItem from="1685085051357" duration="14646000" />
+      <workItem from="1685085051357" duration="14783000" />
+      <workItem from="1685130249063" duration="1563000" />
+      <workItem from="1685194346556" duration="418000" />
+      <workItem from="1685218655073" duration="571000" />
+      <workItem from="1685281924160" duration="4479000" />
+      <workItem from="1685432503424" duration="987000" />
+      <workItem from="1685477935070" duration="1429000" />
+      <workItem from="1686414679064" duration="1168000" />
+      <workItem from="1686434736950" duration="665000" />
     </task>
     <servers />
   </component>
