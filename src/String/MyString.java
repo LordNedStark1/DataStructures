@@ -12,5 +12,5 @@ public final class MyString{
             Object va = value;
         return new MyString(va);
     }
-    public 
+
 }

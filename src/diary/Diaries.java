@@ -44,5 +44,7 @@ public class Diaries {
                 diary.add(entry);
             }
         }
+        return 0;
     }
 }
+

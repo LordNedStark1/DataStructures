@@ -30,4 +30,14 @@ public class MyLinkedList implements MyList{
     public void insert(int i, Object ned) {
 
     }
+
+    @Override
+    public boolean contains(Object valueToCheck) {
+        return false;
+    }
+
+    @Override
+    public boolean remove(Object objectToRemove) {
+        return false;
+    }
 }

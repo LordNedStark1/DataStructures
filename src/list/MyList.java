@@ -12,4 +12,8 @@ public interface MyList <T>  {
     void remove(int i);
 
     void insert(int i, T ned);
+
+    boolean contains(T valueToCheck);
+
+    boolean remove(T objectToRemove);
 }

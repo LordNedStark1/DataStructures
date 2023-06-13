@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/MyStringPracticeArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/MyStringPracticeArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diary/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diary/Diaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diary/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diary/Diary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +73,35 @@
       <recent name="mecellanouse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DiariesTest">
-    <configuration name="DiariesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ListTest">
+    <configuration name="ListTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.diariesTest.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.diariesTest" />
-      <option name="MAIN_CLASS_NAME" value="test.diariesTest.DiariesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.onInsertTestThatCapacityIncreasesIfFull" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +110,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyMapTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
+      <option name="METHOD_NAME" value="onInsertTestThatCapacityIncreasesIfFull" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.testContainsMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +128,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
+      <option name="METHOD_NAME" value="testContainsMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySetTest.testFindIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.testInsertMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +146,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MySetTest" />
-      <option name="METHOD_NAME" value="testFindIndex" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
+      <option name="METHOD_NAME" value="testInsertMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.testRemoveMethodReturnsABooleanIfTheObjectIsRemovedOrNot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -137,19 +164,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyStackTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
+      <option name="METHOD_NAME" value="testRemoveMethodReturnsABooleanIfTheObjectIsRemovedOrNot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DiariesTest" />
-        <item itemvalue="JUnit.MyMapTest" />
-        <item itemvalue="JUnit.MySetTest" />
-        <item itemvalue="JUnit.MySetTest.testFindIndex" />
-        <item itemvalue="JUnit.MyStackTest" />
+        <item itemvalue="TestNG.ListTest" />
+        <item itemvalue="TestNG.ListTest.testRemoveMethodReturnsABooleanIfTheObjectIsRemovedOrNot" />
+        <item itemvalue="TestNG.ListTest.onInsertTestThatCapacityIncreasesIfFull" />
+        <item itemvalue="TestNG.ListTest.testContainsMethod" />
+        <item itemvalue="TestNG.ListTest.testInsertMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +203,10 @@
       <workItem from="1685432503424" duration="987000" />
       <workItem from="1685477935070" duration="1429000" />
       <workItem from="1686414679064" duration="1168000" />
-      <workItem from="1686434736950" duration="665000" />
+      <workItem from="1686434736950" duration="753000" />
+      <workItem from="1686470733199" duration="57000" />
+      <workItem from="1686644809801" duration="6251000" />
+      <workItem from="1686651258725" duration="13000" />
     </task>
     <servers />
   </component>

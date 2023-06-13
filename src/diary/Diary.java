@@ -1,5 +1,6 @@
 package diary;
 
+import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class Diary {
     }
 
     public Entry findEntryById(int id) {
+        return new Entry("","", "");
     }
 
     public int getId() {

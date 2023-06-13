@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
-public class MyArrayList <T> implements MyList{
+public class MyArrayList <T> implements MyList<T>{
 
     private int listCapacity = 10;
     private T type ;
@@ -40,6 +40,8 @@ public class MyArrayList <T> implements MyList{
         for (int index = 0; index < elements.length; index++) {
             newArray[index] = elements[index];
         }
+//        System.arraycopy(elements, 0, newArray, 0, elements.length);
+//        this.elements = newArray;
         this.elements = newArray;
 
         listCapacity = elements.length;
@@ -72,20 +74,55 @@ public class MyArrayList <T> implements MyList{
     }
 
     @Override
+    public boolean remove(T objectToRemove) {
+        for (int index = 0; index < elements.length; index++) {
+            if (elements[index] == objectToRemove) {
+                elements[index] = null;
+                if (index + 1 < elements.length) {
+                    if (elements[index] == null && elements[index + 1] != null) {
+                        elements[index] = elements[index + 1];
+                        elements[index + 1] = null;
+                    }
+                }
+                sizeOrLastIndex--;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
     public void insert(int indexToChange, Object newValue) {
+        if (elements[elements.length - 1] != null){
+
+            increaseCapacity(elements.length);
+
+        }
         Object valueFromPreviousIndex = elements[indexToChange];
         elements[indexToChange] = newValue;
+        int nextIndex = indexToChange + 1;
 
-        if (indexToChange + 1 < elements.length) {
-
-            Object valueFromNextIndex = elements[indexToChange + 1];
-            elements[sizeOrLastIndex] = valueFromPreviousIndex;
-
-            insert(indexToChange + 1, valueFromNextIndex);
+        if (nextIndex < sizeOrLastIndex) {
+            Object valueFromNextIndex = elements[nextIndex];
+            elements[nextIndex] = valueFromPreviousIndex;
+            insert(nextIndex + 1, valueFromNextIndex);
+        }if(nextIndex == sizeOrLastIndex) {
+            elements[nextIndex] = valueFromPreviousIndex;
         }
+        else {
 
-        sizeOrLastIndex ++;
+            sizeOrLastIndex++;
+            return;
+        }
+    }
 
+    @Override
+    public boolean contains(Object valueToCheck) {
+        for (int index = 0; index < sizeOrLastIndex; index++) {
+            if (elements[index].equals(valueToCheck))
+                return true;
+        }
+        return false;
     }
 
 
@@ -99,7 +136,7 @@ public class MyArrayList <T> implements MyList{
                 break;
             }
             if (elements[i] != null ) {
-                if (elements[i+1] != null) result.append( elements[i]+ ", ");
+                if (elements[i+1] != null) result.append(elements[i]).append(", ");
                 else if (elements[i+1] == null) {
                     result.append( elements[i]);
                 }
