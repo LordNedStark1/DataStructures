@@ -12,7 +12,29 @@ public class QueueTest {
     public void beforeEach(){
         queue = new MyQueue<>(10);
     }
+//    MyQueue queue = new MyQueue();
+    @Test
+    public void testQueueSize(){
 
+        assertEquals(0,queue.size());
+    }
+    @Test
+    public void testEnqueueMethod(){
+
+        queue.enqueue("manager");
+        assertEquals(1, queue.size());
+    }
+    @Test
+    public void testDequeue(){
+        queue.enqueue("manager");
+        queue.enqueue("house");
+        queue.enqueue("land");
+        assertEquals(3, queue.size());
+
+        assertEquals("manager", queue.dequeue());
+        assertEquals("house", queue.dequeue());
+        assertEquals(1, queue.size());
+    }
     @Test
     public void testAddingAndRemovingFromQueue(){
         MyQueue<String> queue = new MyQueue<>(10);
