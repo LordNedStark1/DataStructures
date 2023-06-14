@@ -1,6 +1,6 @@
 package list;
 
-public class MyLinkedList implements MyList{
+public class MyLinkedList<S> implements MyList{
     @Override
     public int getCapacity() {
         return 0;

@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/queue/MyOldQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/MyQueueTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/QueueOneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diary/Diaries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diary/Diary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diary/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/MyQueueOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/StackOverFlowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/StackUnderFlowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/diariesTest/DiariesTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,41 +53,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/programs/dataStructures/src/stack",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/programs/dataStructures/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="queue" />
+      <recent name="LinkedList" />
       <recent name="diary" />
       <recent name="map" />
       <recent name="customExceptions" />
-      <recent name="set" />
-      <recent name="mecellanouse" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\programs\dataStructures\src" />
       <recent name="C:\Users\USER\Desktop\programs\dataStructures\src\stack" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
-    <configuration name="MyStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QueueOneTest">
+    <configuration name="QueueOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +100,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyStackTest" />
+      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueOneTest.testAddRemoveFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -93,40 +115,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
+      <option name="METHOD_NAME" value="testAddRemoveFromQueue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueOneTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
+      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.onInsertTestThatCapacityIncreasesIfFull" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueOneTest.testEnqueueTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -135,16 +147,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
-      <option name="METHOD_NAME" value="onInsertTestThatCapacityIncreasesIfFull" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
+      <option name="METHOD_NAME" value="testEnqueueTwice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.testRemoveMethodReturnsABooleanIfTheObjectIsRemovedOrNot" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueOneTest.testPeekMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -153,22 +163,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListTest" />
-      <option name="METHOD_NAME" value="testRemoveMethodReturnsABooleanIfTheObjectIsRemovedOrNot" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
+      <option name="METHOD_NAME" value="testPeekMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.MyStackTest" />
-        <item itemvalue="TestNG.ListTest" />
-        <item itemvalue="TestNG.ListTest.testRemoveMethodReturnsABooleanIfTheObjectIsRemovedOrNot" />
-        <item itemvalue="TestNG.ListTest.onInsertTestThatCapacityIncreasesIfFull" />
+        <item itemvalue="JUnit.QueueOneTest" />
+        <item itemvalue="JUnit.QueueOneTest.testEnqueueTwice" />
+        <item itemvalue="JUnit.QueueOneTest.testAddRemoveFromQueue" />
+        <item itemvalue="JUnit.QueueOneTest.testPeekMethod" />
+        <item itemvalue="JUnit.QueueOneTest.testDequeue" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +204,8 @@
       <workItem from="1686470733199" duration="57000" />
       <workItem from="1686644809801" duration="6251000" />
       <workItem from="1686651258725" duration="13000" />
-      <workItem from="1686721155611" duration="1693000" />
+      <workItem from="1686721155611" duration="7574000" />
+      <workItem from="1686750627907" duration="5454000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,7 @@ public class MyStack<T> {
     private int stackSize = 100;
     public void push(T objectToAdd) {
         if (sizeOrLastIndex == stackSize ){
-            throw new StackOverFlowException("Stack overflow Exception");
+            throw new MyStackOverFlowException("Stack overflow Exception");
         }
         myList.add(objectToAdd);
         sizeOrLastIndex++;
@@ -24,7 +24,7 @@ public class MyStack<T> {
 
     public T pop() {
         if (sizeOrLastIndex == 0) {
-            throw new StackUnderFlowException("Stack underflow Exception");
+            throw new MyStackUnderFlowException("Stack underflow Exception");
         }
         T objectToPop = peek();
         myList.remove(sizeOrLastIndex--);

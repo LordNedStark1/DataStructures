@@ -4,8 +4,6 @@ import customExceptions.MyStackOverFlowException;
 import customExceptions.MyStackUnderFlowException;
 import org.junit.jupiter.api.Test;
 import stack.MyStack;
-import stack.StackOverFlowException;
-import stack.StackUnderFlowException;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -110,14 +108,14 @@ public class MyStackTest {
         stack.push("new value");
         stack.pop();
         assertEquals(0,stack.size());
-        assertThrows(StackUnderFlowException.class,() ->  stack.pop());
+        assertThrows(MyStackUnderFlowException.class,() ->  stack.pop());
     }
     @Test
     public void testStackOverFlowException(){
         for (int i = 0; i < 100; i++) {
             stack.push("new value");
         }
-        assertThrows(StackOverFlowException.class,() ->  stack.push("21"));
+        assertThrows(MyStackOverFlowException.class,() ->  stack.push("21"));
     }
     @Test
     public void testPushPopMethod(){

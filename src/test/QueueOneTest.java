@@ -4,15 +4,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import queue.MyQueue;
 import queue.MyQueueOne;
-import queue.MyQueueTwo;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class QueueTest {
+public class QueueOneTest {
     MyQueue<String> queue;
     @BeforeEach
     public void beforeEach(){
-        queue = new MyQueueTwo<>(10);
+        queue = new MyQueueOne<>();
     }
 //    MyQueue queue = new MyQueue();
     @Test
@@ -27,6 +26,16 @@ public class QueueTest {
         assertEquals(1, queue.size());
     }
     @Test
+    public void testDequeueMethod(){
+        queue.enqueue("manager");
+        queue.enqueue("house");
+        queue.enqueue("land");
+        assertEquals(3, queue.size());
+
+        assertEquals("manager", queue.dequeue());
+        assertEquals(2, queue.size());
+    }
+    @Test
     public void testDequeue(){
         queue.enqueue("manager");
         queue.enqueue("house");
@@ -38,17 +47,39 @@ public class QueueTest {
         assertEquals(1, queue.size());
     }
     @Test
-    public void testAddingAndRemovingFromQueue(){
-        MyQueue<String> queue = new MyQueueOne<>();
+    public void testPeekMethod(){
         queue.enqueue("money");
         queue.enqueue("shop");
-        assertEquals(10, queue.size());
+
+        assertEquals("money", queue.peek());
         assertEquals("money", queue.dequeue());
+
+        assertEquals("shop", queue.peek());
+        assertEquals(1, queue.size());
+        assertEquals("shop", queue.dequeue());
     }
     @Test
-    public void testAddRemoveAndAddingToQueue(){
+    public void testEnqueueTwice(){
+        queue.enqueue("house");
+        queue.enqueue("monster");
+        assertEquals("house", queue.peek());
+
+
+        assertEquals("house", queue.dequeue());
+
+        assertEquals("monster", queue.peek());
+        queue.enqueue("shoe");
+        assertEquals("monster", queue.peek());
+        queue.enqueue("school");
+        queue.enqueue("company");
+
+        assertEquals("monster", queue.peek());
+    }
+    @Test
+    public void testAddRemoveFromQueue(){
         queue.enqueue("money");
         queue.enqueue("shop");
+
 
         assertEquals("money", queue.dequeue());
 
@@ -56,7 +87,10 @@ public class QueueTest {
         queue.enqueue("house");
         queue.enqueue("company");
 
+        assertEquals("shop", queue.peek());
+        assertEquals(4, queue.size());
         assertEquals("shop", queue.dequeue());
+
 
         queue.enqueue("contact");
         queue.enqueue("dubia");
@@ -66,33 +100,11 @@ public class QueueTest {
         assertEquals("house", queue.dequeue());
     }
     @Test
-    public void testAddDeleteAndAddToCapacityBehaviourOfQueue(){
-        MyQueue<String> queue = new MyQueueOne<>();
-
-        queue.enqueue("first");
-        queue.enqueue("second");
-        queue.enqueue("third");
-
-        queue.enqueue("forth");
-        queue.enqueue("fifth");
-
-        assertEquals("first", queue.dequeue());
-        assertEquals("second", queue.dequeue());
-        assertEquals("third", queue.dequeue());
-
-        System.out.println(queue);
-
-        queue.enqueue("money");
-        queue.enqueue("dubia");
-        queue.enqueue("shell");
-
-        assertFalse(queue.isEmpty());
-
-        assertEquals("forth", queue.dequeue());
-        assertEquals("fifth", queue.dequeue());
-        assertEquals("dubia", queue.dequeue());
-        assertEquals("shell", queue.dequeue());
-
-        assertTrue(queue.isEmpty());
+    public void testIsEmptyMethod(){
+      assertTrue(queue.isEmpty());
+      queue.enqueue("Shoulder");
+      assertFalse(queue.isEmpty());
+      queue.dequeue();
+      assertTrue(queue.isEmpty());
     }
 }
