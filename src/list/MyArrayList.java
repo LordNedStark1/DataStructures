@@ -90,6 +90,11 @@ public class MyArrayList <T> implements MyList<T>{
     }
 
     @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
     public void insert(int indexToChange, Object newValue) {
         if (elements[elements.length - 1] != null){
 

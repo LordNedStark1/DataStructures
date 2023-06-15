@@ -16,4 +16,6 @@ public interface MyList <T>  {
     boolean contains(T valueToCheck);
 
     boolean remove(T objectToRemove);
+
+    boolean isEmpty();
 }

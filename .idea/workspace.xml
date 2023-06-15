@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queue/MyOldQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/MyQueueTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/QueueOneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diary/Diaries.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diary/Diary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diary/Entry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/MyQueueOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/StackOverFlowException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/StackUnderFlowException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/diariesTest/DiariesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +76,38 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueOneTest">
+  <component name="RunManager" selected="JUnit.MyLinkedListTest.LinkedListNotNull">
+    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.LinkedListNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="LinkedListNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -122,22 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOneTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
-      <option name="METHOD_NAME" value="testDequeue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueOneTest.testEnqueueTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -154,29 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOneTest.testPeekMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
-      <option name="METHOD_NAME" value="testPeekMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkedListTest.LinkedListNotNull" />
+        <item itemvalue="JUnit.MyLinkedListTest" />
         <item itemvalue="JUnit.QueueOneTest" />
         <item itemvalue="JUnit.QueueOneTest.testEnqueueTwice" />
         <item itemvalue="JUnit.QueueOneTest.testAddRemoveFromQueue" />
-        <item itemvalue="JUnit.QueueOneTest.testPeekMethod" />
-        <item itemvalue="JUnit.QueueOneTest.testDequeue" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +191,8 @@
       <workItem from="1686651258725" duration="13000" />
       <workItem from="1686721155611" duration="7574000" />
       <workItem from="1686750627907" duration="5454000" />
+      <workItem from="1686810127426" duration="13000" />
+      <workItem from="1686819881037" duration="1114000" />
     </task>
     <servers />
   </component>

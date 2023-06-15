@@ -40,4 +40,9 @@ public class MyLinkedList<S> implements MyList{
     public boolean remove(Object objectToRemove) {
         return false;
     }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
 }
