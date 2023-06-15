@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf65b1e-2aa7-4e83-b7af-719ea14c969b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,22 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTest.LinkedListNotNull">
+  <component name="RunManager" selected="JUnit.MbtiTest">
+    <configuration name="MbtiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.mbti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.mbti" />
+      <option name="MAIN_CLASS_NAME" value="test.mbti.MbtiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -123,22 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOneTest.testAddRemoveFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.QueueOneTest" />
-      <option name="METHOD_NAME" value="testAddRemoveFromQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueOneTest.testEnqueueTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructures" />
       <extension name="coverage">
@@ -157,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MbtiTest" />
         <item itemvalue="JUnit.MyLinkedListTest.LinkedListNotNull" />
         <item itemvalue="JUnit.MyLinkedListTest" />
         <item itemvalue="JUnit.QueueOneTest" />
         <item itemvalue="JUnit.QueueOneTest.testEnqueueTwice" />
-        <item itemvalue="JUnit.QueueOneTest.testAddRemoveFromQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +188,8 @@
       <workItem from="1686750627907" duration="5454000" />
       <workItem from="1686810127426" duration="13000" />
       <workItem from="1686819881037" duration="1114000" />
+      <workItem from="1686821233513" duration="600000" />
+      <workItem from="1686822392195" duration="64000" />
     </task>
     <servers />
   </component>
