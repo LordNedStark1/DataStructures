@@ -3,6 +3,9 @@ package mbtiQuestions;
 import java.util.Map;
 import java.util.TreeMap;
 
+import static mbtiQuestions.PersonalityType.EXTROVERT;
+import static mbtiQuestions.PersonalityType.INTROVERT;
+
 public class MbtiQuestion {
     Map<Integer, Question> questions = new TreeMap<>();
     int introvertCounter = 0;
@@ -11,7 +14,6 @@ public class MbtiQuestion {
     public int getIntrovertCounter() {
         return introvertCounter;
     }
-
     public int getExtrovertCounter() {
         return extrovertCounter;
     }
@@ -38,16 +40,16 @@ public class MbtiQuestion {
         for (Object obj : questionNumber) {
 
             PersonalityType personalityType = questions.get(obj).getUserPersonalityType();
-            if (personalityType == PersonalityType.INTROVERT) introvertCounter++;
-            if (personalityType == PersonalityType.EXTROVERT) extrovertCounter++;
+            if (personalityType == INTROVERT) introvertCounter++;
+            if (personalityType == EXTROVERT) extrovertCounter++;
         }
 
         if (introvertCounter > extrovertCounter) {
-            return PersonalityType.INTROVERT;
+            return INTROVERT;
         }
         else if (extrovertCounter > introvertCounter) {
 
-            return PersonalityType.EXTROVERT;
+            return EXTROVERT;
         }
 
         return PersonalityType.BALANCE;
@@ -59,17 +61,23 @@ public class MbtiQuestion {
 
     public String displayMessageOnUserPersonalityType() {
         PersonalityType personalityType = determinePersonalityType();
-        if (personalityType == PersonalityType.INTROVERT){
+        if (personalityType == INTROVERT){
 
             return "Your solitude will be a support and a home for you," +
-                    " even in the midst of very unfamiliar circumstances, and from it, you will find all your paths. " +
-                    "\n You are an introvert with "+ introvertCounter + "count indicating so";
-        } else if (personalityType == PersonalityType.EXTROVERT) {
-            return "Extroversion is an enormously appealing personality style. " +
-                    "An extrovert is more likely to share immediate " +
-                    "reactions and process information through conversation. " +
+                    "\n even in the midst of very unfamiliar circumstances, and from it, " +
+                    "\nyou will find all your paths. " +
+                    "\n You are an introvert with "+ introvertCounter + " count indicating so";
+        } else if (personalityType == EXTROVERT) {
+
+            return "Extroversion is an enormously appealing personality style. \n" +
+                    "An extrovert is more likely to share immediate \n" +
+                    "reactions and process information through conversation. \n" +
                     "You are an extrovert with "+ extrovertCounter + " count indicating so";
         }
-        return "You are quite balanced";
+        return """
+                You are quite balanced.\s
+                A balanced personality is marked by\s
+                good physical appearance, emotional stability, higher intellectual ability,
+                 higher degree of social adjustment""";
     }
 }
